@@ -136,3 +136,38 @@ h3 {
     text-align: right;
     padding-right: 2rem
 }
+
+/* CTA section */
+.cta-container {
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+}
+
+.cta-bg {
+    background-color: #3882f6;
+    border-radius: 0.5rem;
+    padding: 3rem 9rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h4 {
+    color: white;
+    font-size: 1.875rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.cta-bg p {
+    color: #e5e7eb;
+    margin: 0;
+}
+
+.cta-bg button {
+    border: 0.15rem solid white;
+    color: white;
+    padding: 0.5rem 2.25rem;
+}
