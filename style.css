@@ -7,6 +7,10 @@
     padding: 1em 20em;
 }
 
+p {
+    font-size: 1.125rem;
+}
+
 /* Header and hero */
 .header {
     background-color: #1f2937;
@@ -57,8 +61,7 @@ h2 {
     margin: 0;
 }
 
-p {
-    font-size: 1.125rem;
+.text p {
     margin: 0.5rem 0 1rem 0;
 }
 
@@ -90,7 +93,7 @@ h3 {
     justify-content: center;
     align-items: center;
     gap: 5rem;
-    padding-bottom: 2.5rem;
+    padding-bottom: 5rem;
 }
 
 .info {
@@ -102,6 +105,11 @@ h3 {
     border: 0.25rem solid #3882f6;
     border-radius: 0.5rem;
     width: 100%;
+}
+
+.info p {
+    color: #1f2937c7;
+    margin: 0.5rem;
 }
 
 /* Quote section */
